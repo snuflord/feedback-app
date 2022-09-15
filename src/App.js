@@ -28,7 +28,7 @@ function App() {
                                 <>
                                 {/*handleAdd prop taking in addFeedback function, outside return method*/}
                                 <FeedbackForm/> 
-                                <FeedbackStats />
+                                <FeedbackStats/>
                                 {/* passing feedback variable (data) as prop to FeedbackList */}
                                 <FeedbackList/>
                                 </>
