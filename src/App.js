@@ -26,10 +26,10 @@ function App() {
                         <Routes>
                             <Route exact path='/' element={
                                 <>
-                                {/*handleAdd prop taking in addFeedback function, outside return method*/}
+                                
                                 <FeedbackForm/> 
                                 <FeedbackStats/>
-                                {/* passing feedback variable (data) as prop to FeedbackList */}
+                               
                                 <FeedbackList/>
                                 </>
                             }>

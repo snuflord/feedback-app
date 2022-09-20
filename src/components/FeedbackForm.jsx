@@ -48,10 +48,8 @@ function FeedbackForm() {
             if(feedbackEdit.edit === true) {
                 updateFeedback(feedbackEdit.item.id, newFeedback)
             } else {
-                addFeedback(newFeedback) // returning data to handle add
+                addFeedback(newFeedback) // returning data to addFeedback
             }
-            
-
             setText('')
         }
     }

@@ -1,0 +1,44 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "rating": 10,
+      "text": "Here we have a text example for item 1"
+    },
+    {
+      "id": 2,
+      "rating": 8,
+      "text": "Here we have a text example for item 2"
+    },
+    {
+      "id": 3,
+      "rating": 7,
+      "text": "Here we have a text example for item 3"
+    },
+    {
+      "text": "add new item",
+      "rating": 10,
+      "id": 4
+    },
+    {
+      "text": "great tutorial",
+      "rating": 9,
+      "id": 5
+    },
+    {
+      "text": "adding new item 555",
+      "rating": 4,
+      "id": 6
+    },
+    {
+      "text": "lets add new item",
+      "rating": 7,
+      "id": 7
+    },
+    {
+      "text": "new item again",
+      "rating": 10,
+      "id": 8
+    }
+  ]
+}
