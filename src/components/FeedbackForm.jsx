@@ -39,6 +39,7 @@ function FeedbackForm() {
 
     const handleSubmit = (e) => { //handleSubmit takes in event/ check for > 10/ then new var containing text/rating
         e.preventDefault()
+        //trim removes whitespace from text
         if(text.trim().length > 10) { 
             const newFeedback = {
                 text,
@@ -54,7 +55,6 @@ function FeedbackForm() {
         }
     }
 
-    
     return (
 
         <Card>
